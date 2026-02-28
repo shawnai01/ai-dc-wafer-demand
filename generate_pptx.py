@@ -39,10 +39,11 @@ plt.rcParams.update({
     'grid.color': '#333',
     'grid.alpha': 0.5,
     'font.size': 11,
+    'axes.unicode_minus': False,
 })
 
 # Try Korean font
-for f in ['AppleGothic', 'NanumGothic', 'Malgun Gothic', 'sans-serif']:
+for f in ['Apple SD Gothic Neo', 'AppleGothic', 'NanumGothic', 'Malgun Gothic', 'sans-serif']:
     try:
         plt.rcParams['font.family'] = f
         fig_test = plt.figure()
